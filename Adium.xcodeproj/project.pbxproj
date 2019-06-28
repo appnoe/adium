@@ -1041,7 +1041,6 @@
 		5A5F8BBD12D560E400019727 /* AIDockNameOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F8BBC12D560E400019727 /* AIDockNameOverlay.m */; };
 		5A6298DF1682BD9100F51DED /* AIAdvancedPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E24A815BC746B003A6F9E /* AIAdvancedPreferencePane.m */; };
 		5A6298E31682BD9D00F51DED /* AIAdvancedPreferencePane.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1E24A715BC746B003A6F9E /* AIAdvancedPreferencePane.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A77B8D418F0626E008E22F0 /* Preferences-Privacy.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A8F637514DD1B21008412C8 /* Preferences-Privacy.xib */; };
 		5A799674133C3D6F0005AC6A /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1FEA601334549300C14951 /* MessageView.xib */; };
 		5A914166175BD960002139D5 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A914164175BD960002139D5 /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5A914167175BD960002139D5 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A914165175BD960002139D5 /* ISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -4225,44 +4224,44 @@
 		633D4FC10F9D3116004F491E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Other/Adium Spotlight Importer/Info.plist"; sourceTree = "<group>"; };
 		633D50550F9D31B8004F491E /* AdiumSpotlightImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdiumSpotlightImporter.h; path = "Other/Adium Spotlight Importer/AdiumSpotlightImporter.h"; sourceTree = "<group>"; };
 		633D50EE0F9D31BD004F491E /* cs */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D50F00F9D31BD004F491E /* cs */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/schema.strings; sourceTree = "<group>"; };
+		633D50F00F9D31BD004F491E /* cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/schema.strings; sourceTree = "<group>"; };
 		633D50F10F9D31BD004F491E /* da */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D50F20F9D31BD004F491E /* da */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/schema.strings; sourceTree = "<group>"; };
+		633D50F20F9D31BD004F491E /* da */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/schema.strings; sourceTree = "<group>"; };
 		633D50F30F9D31BD004F491E /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D50F40F9D31BD004F491E /* de */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/schema.strings; sourceTree = "<group>"; };
+		633D50F40F9D31BD004F491E /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/schema.strings; sourceTree = "<group>"; };
 		633D50F50F9D31BD004F491E /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		633D50F60F9D31BD004F491E /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/schema.strings; sourceTree = "<group>"; };
 		633D50F70F9D31BD004F491E /* fi */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D50F80F9D31BD004F491E /* fi */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/schema.strings; sourceTree = "<group>"; };
+		633D50F80F9D31BD004F491E /* fi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/schema.strings; sourceTree = "<group>"; };
 		633D50F90F9D31BD004F491E /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D50FA0F9D31BD004F491E /* fr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/schema.strings; sourceTree = "<group>"; };
+		633D50FA0F9D31BD004F491E /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/schema.strings; sourceTree = "<group>"; };
 		633D50FB0F9D31BD004F491E /* fr_CA */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr_CA; path = fr_CA.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D50FC0F9D31BD004F491E /* fr_CA */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = fr_CA; path = fr_CA.lproj/schema.strings; sourceTree = "<group>"; };
+		633D50FC0F9D31BD004F491E /* fr_CA */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr_CA; path = fr_CA.lproj/schema.strings; sourceTree = "<group>"; };
 		633D51020F9D31BD004F491E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Other/Adium Spotlight Importer/Info.plist"; sourceTree = "<group>"; };
 		633D51030F9D31BD004F491E /* is */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = is; path = is.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D51040F9D31BD004F491E /* is */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = is; path = is.lproj/schema.strings; sourceTree = "<group>"; };
+		633D51040F9D31BD004F491E /* is */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = is; path = is.lproj/schema.strings; sourceTree = "<group>"; };
 		633D51050F9D31BD004F491E /* it */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D51060F9D31BD004F491E /* it */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/schema.strings; sourceTree = "<group>"; };
+		633D51060F9D31BD004F491E /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/schema.strings; sourceTree = "<group>"; };
 		633D51070F9D31BD004F491E /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D51080F9D31BD004F491E /* ja */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/schema.strings; sourceTree = "<group>"; };
+		633D51080F9D31BD004F491E /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/schema.strings; sourceTree = "<group>"; };
 		633D510B0F9D31BD004F491E /* nb */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D510C0F9D31BD004F491E /* nb */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/schema.strings; sourceTree = "<group>"; };
+		633D510C0F9D31BD004F491E /* nb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/schema.strings; sourceTree = "<group>"; };
 		633D510D0F9D31BD004F491E /* nl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D510E0F9D31BD004F491E /* nl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/schema.strings; sourceTree = "<group>"; };
+		633D510E0F9D31BD004F491E /* nl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/schema.strings; sourceTree = "<group>"; };
 		633D510F0F9D31BD004F491E /* pl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D51100F9D31BD004F491E /* pl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/schema.strings; sourceTree = "<group>"; };
+		633D51100F9D31BD004F491E /* pl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/schema.strings; sourceTree = "<group>"; };
 		633D51110F9D31BD004F491E /* pt_PT */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D51120F9D31BD004F491E /* pt_PT */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/schema.strings; sourceTree = "<group>"; };
+		633D51120F9D31BD004F491E /* pt_PT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = pt_PT; path = pt_PT.lproj/schema.strings; sourceTree = "<group>"; };
 		633D51130F9D31BD004F491E /* ru */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D51140F9D31BD004F491E /* ru */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/schema.strings; sourceTree = "<group>"; };
+		633D51140F9D31BD004F491E /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/schema.strings; sourceTree = "<group>"; };
 		633D51160F9D31BD004F491E /* sl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D51170F9D31BD004F491E /* sl */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/schema.strings; sourceTree = "<group>"; };
+		633D51170F9D31BD004F491E /* sl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/schema.strings; sourceTree = "<group>"; };
 		633D51180F9D31BD004F491E /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D51190F9D31BD004F491E /* sv */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/schema.strings; sourceTree = "<group>"; };
+		633D51190F9D31BD004F491E /* sv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/schema.strings; sourceTree = "<group>"; };
 		633D511A0F9D31BD004F491E /* tr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D511B0F9D31BD004F491E /* tr */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/schema.strings; sourceTree = "<group>"; };
+		633D511B0F9D31BD004F491E /* tr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/schema.strings; sourceTree = "<group>"; };
 		633D511E0F9D31BE004F491E /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		633D511F0F9D31BE004F491E /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/schema.strings; sourceTree = "<group>"; };
+		633D511F0F9D31BE004F491E /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/schema.strings; sourceTree = "<group>"; };
 		633F175808F905A700C76383 /* AIXtrasManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AIXtrasManager.h; path = Source/AIXtrasManager.h; sourceTree = "<group>"; };
 		633F175908F905A700C76383 /* AIXtrasManager.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = AIXtrasManager.m; path = Source/AIXtrasManager.m; sourceTree = "<group>"; };
 		6341AEFE0E53A09C00AE1439 /* libexpat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libexpat.dylib; path = usr/lib/libexpat.dylib; sourceTree = SDKROOT; };
@@ -4631,7 +4630,7 @@
 		C6EE434D15C0AB7F00A4B96C /* Awake_192@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Awake_192@2x.png"; path = "Resources/Awake_192@2x.png"; sourceTree = "<group>"; };
 		D10A3A2A122C61EF003B5A7E /* msg-source-destination.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "msg-source-destination.tiff"; path = "Resources/msg-source-destination.tiff"; sourceTree = "<group>"; };
 		D182F1B411DFF23700E33AE2 /* sk */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D182F1B611DFF23700E33AE2 /* sk */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/schema.strings; sourceTree = "<group>"; };
+		D182F1B611DFF23700E33AE2 /* sk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = sk; path = sk.lproj/schema.strings; sourceTree = "<group>"; };
 		D1B9BFFE14C3ADAE00D03244 /* sl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xib; name = sl; path = "Plugins/Purple Service/Resources/sl.lproj/ESPurpleZephyrAccountView.xib"; sourceTree = "<group>"; };
 		D1B9C00814C3ADF600D03244 /* sl */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; fileEncoding = 10; name = sl; path = "Plugins/Purple Service/Resources/sl.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D1B9C01C14C3AEC300D03244 /* sl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xib; name = sl; path = "Plugins/WebKit Message View/Resources/sl.lproj/WebKitPreferencesView.xib"; sourceTree = "<group>"; };
@@ -5137,6 +5136,7 @@
 				761CE33E16F9087C000EE361 /* Dock Tile */,
 				761CE33716F9087C000EE361 /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				CFC05B88229560DF00E8C9D0 /* Recovered References */,
 			);
 			name = CocAIMe2;
 			sourceTree = "<group>";
@@ -5967,7 +5967,7 @@
 			isa = PBXGroup;
 			children = (
 				3496A8EA07CE6CA30055BBAB /* AutoHyperlinks.framework */,
-				7E78DA9C0DD135DE00B9388F /* Test.octest */,
+				7E78DA9C0DD135DE00B9388F /* Test.xctest */,
 				EFB1C3D80DDCA0A900B3973D /* LinkDriver.app */,
 				3416394D0DE58A1A009E9550 /* AHStressTester */,
 				3407A2FF0E0449E800DCE4B1 /* AHThreadedStressTester */,
@@ -8560,6 +8560,15 @@
 			name = "From Logorrhea";
 			sourceTree = "<group>";
 		};
+		CFC05B88229560DF00E8C9D0 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				76B8B8EA16AF3A46009126FE /* AIOTRTopBarLoggingWarningController.m */,
+				76B8B8EB16AF3A46009126FE /* AIOTRTopBarLoggingWarningController.xib */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		D3B4A920052DE51000A8010B /* About Box */ = {
 			isa = PBXGroup;
 			children = (
@@ -9579,10 +9588,10 @@
 			remoteRef = 3496A8ED07CE6CCB0055BBAB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7E78DA9C0DD135DE00B9388F /* Test.octest */ = {
+		7E78DA9C0DD135DE00B9388F /* Test.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = Test.octest;
+			path = Test.xctest;
 			remoteRef = 7E78DA9B0DD135DE00B9388F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -9824,7 +9833,6 @@
 				3419DE770A81042F00C3FC68 /* DockPrefs.plist in Resources */,
 				3419DE7A0A81042F00C3FC68 /* FontPanelAccessoryView.xib in Resources */,
 				3419DE7C0A81042F00C3FC68 /* lock-locked.tiff in Resources */,
-				5A77B8D418F0626E008E22F0 /* Preferences-Privacy.xib in Resources */,
 				3419DE7D0A81042F00C3FC68 /* lock-unlocked.tiff in Resources */,
 				3419DE7F0A81042F00C3FC68 /* msg-send-file.tiff in Resources */,
 				3419DE820A81042F00C3FC68 /* ToolbarPrefs.plist in Resources */,
@@ -12743,6 +12751,15 @@
 					"\"$(SRCROOT)/Frameworks\"",
 					"\"$(SRCROOT)/build/Debug\"",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"/usr/local/opt/openssl/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/opt/openssl/lib/**";
 			};
 			name = Debug;
 		};
@@ -12757,6 +12774,15 @@
 					"\"$(SRCROOT)/build/Debug\"",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = RELEASE_BUILD;
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"/usr/local/opt/openssl/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/opt/openssl/lib/**";
 			};
 			name = Release;
 		};
@@ -12774,6 +12800,15 @@
 					RELEASE_BUILD,
 					DEBUG_BUILD,
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_4)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_6)",
+					"$(HEADER_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
+					"/usr/local/opt/openssl/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/opt/openssl/lib/**";
 			};
 			name = "Release-Debug";
 		};

@@ -702,14 +702,14 @@
 	 * With the same window positioning information as a user for whom this happens consistently, I can't reproduce. Let's
 	 * fail to set the toolbar gracefully.
 	 */
-	@try
-	{
-		[[self window] setToolbar:toolbar];
-	}
-	@catch(id exc)
-	{
-		NSLog(@"Warning: While setting the contact list's toolbar, exception %@ was thrown.", exc);
-	}
+//    @try
+//    {
+//        [[self window] setToolbar:toolbar];
+//    }
+//    @catch(id exc)
+//    {
+//        NSLog(@"Warning: While setting the contact list's toolbar, exception %@ was thrown.", exc);
+//    }
 }
 
 - (NSToolbarItem *)toolbar:(NSToolbar *)toolbar itemForItemIdentifier:(NSString *)itemIdentifier willBeInsertedIntoToolbar:(BOOL)flag

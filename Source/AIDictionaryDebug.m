@@ -57,7 +57,7 @@
 	NSAssert3(object != nil, @"%@: Attempted to set %@ for %@",self,object,key);
 	NSAssert3(key != nil, @"%@: Attempted to set %@ for %@",self,object,key);
 
-	method_invoke(self, class_getInstanceMethod([AIDictionaryDebug class], @selector(setObject:forKey:)), object, key);
+//    method_invoke(self, class_getInstanceMethod([AIDictionaryDebug class], @selector(setObject:forKey:)), object, key);
 }
 
 - (void)removeObjectForKey:(id)key
@@ -65,7 +65,7 @@
 	if (!key) [AIDictionaryDebug breakpoint];
 	NSAssert1(key != nil, @"%@: Attempted to remove a nil key",self);
 
-	method_invoke(self, class_getInstanceMethod([AIDictionaryDebug class], @selector(removeObjectForKey:)), key);
+//    method_invoke(self, class_getInstanceMethod([AIDictionaryDebug class], @selector(removeObjectForKey:)), key);
 }
 
 #endif
